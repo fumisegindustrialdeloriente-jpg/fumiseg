@@ -1,96 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>FUMISEG | Control Profesional de Plagas</title>
+<title>FUMISEG | Control de Plagas</title>
 
 <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
 body{
+margin:0;
+font-family:Arial;
 background:#f4f4f4;
+text-align:center;
 }
 
 header{
-background:linear-gradient(135deg,#1e7a2e,#2ecc71);
+background:#1e7a2e;
 color:white;
-text-align:center;
-padding:70px 20px;
+padding:40px;
 }
 
-header h1{
-font-size:40px;
-}
-
-header p{
-margin-top:10px;
-font-size:18px;
+.logo{
+width:140px;
+margin-bottom:10px;
 }
 
 nav{
 background:#145a22;
-text-align:center;
 padding:15px;
 }
 
 nav a{
 color:white;
-margin:0 15px;
+margin:15px;
 text-decoration:none;
 font-weight:bold;
 }
 
-section{
-padding:60px 20px;
-text-align:center;
-}
-
 .servicios{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:25px;
-max-width:1000px;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+max-width:900px;
 margin:auto;
-margin-top:30px;
+margin-top:40px;
 }
 
 .card{
 background:white;
-padding:25px;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-transition:0.2s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-}
-
-.instagram-btn{
-background:#E1306C;
-color:white;
-padding:15px 30px;
-border-radius:8px;
-text-decoration:none;
-font-size:18px;
-display:inline-block;
-margin-top:25px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
 .galeria{
-max-width:600px;
+max-width:500px;
 margin:auto;
-margin-top:30px;
+margin-top:40px;
 }
 
 .galeria iframe{
@@ -103,30 +71,21 @@ border-radius:10px;
 footer{
 background:#222;
 color:white;
-text-align:center;
-padding:25px;
+padding:20px;
+margin-top:40px;
 }
-
-/* BOTON WHATSAPP */
 
 .whatsapp{
 position:fixed;
 bottom:20px;
 right:20px;
 background:#25D366;
-width:65px;
-height:65px;
-display:flex;
-align-items:center;
-justify-content:center;
-border-radius:50%;
-box-shadow:0 4px 15px rgba(0,0,0,0.3);
-transition:0.3s;
-}
-
-.whatsapp:hover{
-transform:scale(1.1);
-background:#1ebe5d;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
 }
 
 </style>
@@ -136,18 +95,18 @@ background:#1ebe5d;
 <body>
 
 <header>
+
+<img src="logo.jpeg" class="logo">
+
 <h1>FUMISEG</h1>
 <p>Control Profesional de Plagas</p>
+
 </header>
 
-<<nav class="menu">
-
-<img src="logo.png" class="logo-menu">
-
+<nav>
 <a href="#">Inicio</a>
 <a href="#">Servicios</a>
 <a href="https://instagram.com/fumiseg.io" target="_blank">Instagram</a>
-
 </nav>
 
 <section>
@@ -163,17 +122,17 @@ background:#1ebe5d;
 
 <div class="card">
 <h3>🪳 Control de Cucarachas</h3>
-<p>Tratamientos efectivos y seguros.</p>
+<p>Tratamientos efectivos.</p>
 </div>
 
 <div class="card">
 <h3>🐀 Control de Roedores</h3>
-<p>Control y prevención de ratas y ratones.</p>
+<p>Control y prevención.</p>
 </div>
 
 <div class="card">
 <h3>🦟 Control de Mosquitos</h3>
-<p>Protección contra plagas voladoras.</p>
+<p>Protección contra plagas.</p>
 </div>
 
 </div>
@@ -183,7 +142,6 @@ background:#1ebe5d;
 <section>
 
 <h2>Nuestro trabajo</h2>
-<p>Mira uno de nuestros trabajos en Instagram.</p>
 
 <div class="galeria">
 
@@ -191,24 +149,14 @@ background:#1ebe5d;
 
 </div>
 
-<br>
-
-<a class="instagram-btn" href="https://instagram.com/fumiseg.io" target="_blank">
-Ver nuestro Instagram
-</a>
-
 </section>
 
 <footer>
-<p>© 2026 FUMISEG | Control de Plagas</p>
+© 2026 FUMISEG | Control de Plagas
 </footer>
 
-<a class="whatsapp" href="https://wa.me/573028557878text=Hola%20quiero%20información%20sobre%20fumigación" target="_blank">
-
-<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="white">
-<path d="M20.52 3.48A11.78 11.78 0 0012.05 0C5.47 0 .12 5.35.12 11.93c0 2.1.55 4.16 1.6 5.97L0 24l6.27-1.64a11.9 11.9 0 005.78 1.47h.01c6.58 0 11.93-5.35 11.93-11.93 0-3.19-1.24-6.19-3.47-8.42z"/>
-</svg>
-
+<a class="whatsapp" href="https://wa.me/573028557878" target="_blank">
+WhatsApp
 </a>
 
 </body>
