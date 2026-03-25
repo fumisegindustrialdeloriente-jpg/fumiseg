@@ -12,23 +12,25 @@
 body{
 margin:0;
 font-family:Arial;
-background:#f4f4f4;
+background:white;
 text-align:center;
 }
 
+/* ENCABEZADO */
 header{
-background:#1e7a2e;
+background:#c62828;
 color:white;
 padding:40px;
 }
 
 .logo{
-width:140px;
+width:150px;
 margin-bottom:10px;
 }
 
+/* MENU */
 nav{
-background:#145a22;
+background:#8e0000;
 padding:15px;
 }
 
@@ -39,35 +41,39 @@ text-decoration:none;
 font-weight:bold;
 }
 
+/* SERVICIOS */
 .servicios{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
-max-width:900px;
+max-width:1000px;
 margin:auto;
 margin-top:40px;
 }
 
 .card{
-background:white;
+background:#f8f8f8;
 padding:20px;
 border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* GALERIA */
 .galeria{
-max-width:500px;
+max-width:1000px;
 margin:auto;
 margin-top:40px;
 }
 
 .galeria iframe{
-width:100%;
+width:300px;
 height:500px;
 border:none;
 border-radius:10px;
+margin:10px;
 }
 
+/* FOOTER */
 footer{
 background:#222;
 color:white;
@@ -75,6 +81,7 @@ padding:20px;
 margin-top:40px;
 }
 
+/* BOTON WHATSAPP */
 .whatsapp{
 position:fixed;
 bottom:20px;
@@ -84,7 +91,21 @@ color:white;
 padding:15px 20px;
 border-radius:50px;
 text-decoration:none;
-font-size:18px;
+font-size:16px;
+font-weight:bold;
+}
+
+/* BOTON LLAMAR */
+.llamar{
+position:fixed;
+bottom:80px;
+right:20px;
+background:#c62828;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-size:16px;
 font-weight:bold;
 }
 
@@ -141,10 +162,13 @@ font-weight:bold;
 
 <section>
 
-<h2>Nuestro trabajo</h2>
+<h2>Nuestros Trabajos</h2>
 
 <div class="galeria">
 
+<iframe src="https://www.instagram.com/reel/CxO79DysggA/embed"></iframe>
+<iframe src="https://www.instagram.com/reel/CxO79DysggA/embed"></iframe>
+<iframe src="https://www.instagram.com/reel/CxO79DysggA/embed"></iframe>
 <iframe src="https://www.instagram.com/reel/CxO79DysggA/embed"></iframe>
 
 </div>
@@ -155,6 +179,12 @@ font-weight:bold;
 © 2026 FUMISEG | Control de Plagas
 </footer>
 
+<!-- BOTON LLAMAR -->
+<a class="llamar" href="tel:+573028557878">
+Llamar
+</a>
+
+<!-- BOTON WHATSAPP -->
 <a class="whatsapp" href="https://wa.me/573028557878" target="_blank">
 WhatsApp
 </a>
